@@ -1,0 +1,141 @@
+.portfolio-container {
+  margin: 1% 6%;
+
+  hr {
+    margin: 5% 0;
+  }
+
+  .swirlies {
+    position: absolute;
+    z-index: 0;
+    height: 150px;
+    top: 123px;
+    left: 0;
+  }
+
+  .circles {
+    position: absolute;
+    z-index: -1;
+    top: 400px;
+    right: 440px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+
+    .home-wrapper {
+      font-size: 42px;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 80%;
+        width: auto;
+      }
+    }
+    :hover {
+      cursor: pointer;
+    }
+
+    .media-wrapper {
+      display: flex;
+      align-items: center;
+
+      .linked-in {
+        margin: 0 25px;
+      }
+
+      svg {
+        // position: relative;
+        font-size: 40px;
+        transition: 0.2s ease-in-out;
+        text-decoration: none;
+        color: #fff;
+        border: 1px transparent;
+      }
+
+      svg:hover {
+        color: $primary-pink;
+        cursor: pointer;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .introduction-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.35fr 0.65fr;
+    margin-top: 1%;
+
+    .introduction-wrapper {
+      .intro-header {
+        white-space: pre-wrap;
+        font-size: 70px;
+
+        em {
+          font-style: normal;
+          text-decoration: underline;
+          text-decoration-color: $primary-teal;
+          text-decoration-thickness: 3px;
+          text-underline-offset: 8px;
+        }
+      }
+
+      .top {
+        margin-top: 10%;
+      }
+
+      .bottom {
+        margin-top: 20px;
+      }
+
+      .subtext-wrapper {
+        font-size: 18px;
+        width: 60%;
+        margin: 5% 0 11.5% 0;
+      }
+
+      .contact-me {
+        margin-bottom: 30px;
+
+        a {
+          font-size: 20px;
+          font-weight: 300;
+          color: #fff;
+          text-decoration: underline;
+          text-decoration-color: $primary-teal;
+          text-decoration-thickness: 2px;
+          text-underline-offset: 5px;
+        }
+      }
+
+      .view-portfolio-wrapper {
+        a {
+          display: flex;
+          align-items: center;
+          font-size: 28px;
+          width: 250px;
+          color: #fff;
+          text-decoration: none;
+          padding: 1%;
+          background-color: $primary-pink;
+          border-radius: 8px;
+        }
+
+        svg {
+          margin-left: 7%;
+        }
+      }
+    }
+
+    .self-img {
+      img {
+        width: 100%;
+        height: auto;
+        float: right;
+      }
+    }
+  }
+}
