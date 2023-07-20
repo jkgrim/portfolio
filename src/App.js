@@ -101,7 +101,11 @@ function App() {
 
           <div className="view-portfolio-wrapper">
             <div className="view-portfolio">
-              <a href="https://github.com/jkgrim">
+              <a
+                href="https://github.com/jkgrim"
+                target="_blank"
+                rel="noreferrer"
+              >
                 View Portfolio
                 <FontAwesomeIcon icon={faCircleChevronRight} />
               </a>
@@ -117,6 +121,23 @@ function App() {
       <hr />
 
       <div className="skills-container">{renderSkills}</div>
+
+      <img
+        className="lower-swirlies"
+        src={swirlies}
+        alt="swirlies to fill in white space"
+      />
+
+      <div className="projects-container">
+        <div className="projects-header">Projects</div>
+        <div className="projects-nav">
+          <div className="skill">All</div>
+          <div className="skill">REACT</div>
+          <div className="skill">JAVASCRIPT</div>
+          <div className="skill">PYTHON</div>
+        </div>
+        <div className="projects-wrapper"></div>
+      </div>
     </div>
   );
 }

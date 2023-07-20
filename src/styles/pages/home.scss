@@ -20,6 +20,14 @@
     right: 440px;
   }
 
+  .lower-swirlies {
+    position: absolute;
+    transform: rotate(180deg);
+    z-index: -1;
+    height: 150px;
+    right: -40px;
+  }
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -163,6 +171,32 @@
       .experience {
         color: $primary-teal;
         margin-bottom: 7%;
+      }
+    }
+  }
+
+  .projects-container {
+    margin-top: 5%;
+
+    .projects-header {
+      font-size: 60px;
+    }
+
+    .projects-nav {
+      display: flex;
+      font-size: 28px;
+      margin: 2% 14%;
+      justify-content: space-evenly;
+
+      .skill {
+        padding: 1%;
+        border-radius: 8px;
+        transition: 0.2s ease-in-out;
+      }
+
+      :hover {
+        background-color: $primary-pink;
+        cursor: pointer;
       }
     }
   }
