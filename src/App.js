@@ -11,6 +11,26 @@ import swirlies from "./images/swirlies.png";
 import circles from "./images/circles.png";
 
 function App() {
+  const skills = [
+    { name: "React", experience: 2 },
+    { name: "JavaScript", experience: 2 },
+    { name: "Python", experience: 2 },
+    { name: "Figma", experience: 2 },
+    { name: "SQLAlchemy", experience: 2 },
+    { name: "QA", experience: 2 },
+  ];
+
+  console.log(skills);
+
+  const renderSkills = skills.map((skill) => {
+    return (
+      <div className="skill">
+        <div className="skill-name">{skill.name}</div>
+        <div className="experience">{skill.experience} years of Experience</div>
+      </div>
+    );
+  });
+
   return (
     <div className="portfolio-container">
       <div className="nav-container">
@@ -95,6 +115,8 @@ function App() {
       </div>
 
       <hr />
+
+      <div className="skills-container">{renderSkills}</div>
     </div>
   );
 }
