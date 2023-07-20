@@ -85,13 +85,13 @@ function App() {
 
             <div className="subtext-wrapper">
               <div className="subtext">
-                I am a Front End developer with industry experience building
-                websites and web applications.
+                I am a Full Stack developer with industry experience building
+                client websites and web applications.
               </div>
 
               <div className="subtext">
-                I specialize in React and JavaScript and have professional
-                experience working with SQLAlchemy and Python.
+                I specialize in React and Python and have professional
+                experience working with SQLAlchemy, JavaScript, and Figma.
               </div>
 
               <div className="subtext bottom">
