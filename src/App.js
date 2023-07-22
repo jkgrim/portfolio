@@ -1,3 +1,7 @@
+//TODO: Put cards and skills in components
+//wire up messaging in footer
+//media query everything
+
 import "./styles/app.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -284,4 +288,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
