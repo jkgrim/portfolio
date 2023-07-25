@@ -94,7 +94,7 @@ export default function App() {
 
               <div className="subtext">
                 I specialize in React and Python and have professional
-                experience working with SQLAlchemy, JavaScript, and Figma.
+                experience working with SQL, JavaScript, and Figma.
               </div>
 
               <div className="subtext bottom">
