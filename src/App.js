@@ -46,7 +46,7 @@ function App() {
 
           <div className="media-wrapper">
             <a
-              href="https://github.com/jkgrim"
+              href="https://github.com/jkgrim?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
@@ -111,7 +111,7 @@ function App() {
             <div className="view-portfolio-wrapper">
               <div className="view-portfolio">
                 <a
-                  href="https://github.com/jkgrim"
+                  href="https://github.com/jkgrim?tab=repositories"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -151,7 +151,7 @@ function App() {
                   <h1>Touch Typing Trainer</h1>
                   <p>React | HTML | CSS</p>
                   <a
-                    href="https://codesandbox.io/s/touch-typing-trainer-ylesme"
+                    href="https://github.com/jkgrim/typing-trainer"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -189,7 +189,7 @@ function App() {
                   <h1>Coming Soon!</h1>
                   <p>More projects are on the way!</p>
                   <a
-                    href="https://github.com/jkgrim/"
+                    href="https://github.com/jkgrim?tab=repositories"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -263,7 +263,7 @@ function App() {
 
           <div className="media-wrapper">
             <a
-              href="https://github.com/jkgrim"
+              href="https://github.com/jkgrim?tab=repositories"
               target="_blank"
               rel="noreferrer"
             >
