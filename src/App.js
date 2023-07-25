@@ -13,7 +13,7 @@ import sudokuSolver from "./images/sudoku-solver.png";
 import keyboard from "./images/keyboard2.webp";
 import code from "./images/code.jpeg";
 
-function App() {
+export default function App() {
   const skills = [
     { name: "React", icon: "fa-brands fa-react" },
     { name: "JavaScript", icon: "fa-brands fa-square-js" },
@@ -21,12 +21,11 @@ function App() {
     { name: "Figma", icon: "fa-brands fa-figma" },
     { name: "HTML5", icon: "fa-brands fa-html5" },
     { name: "Sass", icon: "fa-brands fa-sass" },
-    { name: "SQLAlchemy", icon: "fa-solid fa-flask" },
+    { name: "SQL", icon: "fa-solid fa-database" },
     { name: "QA", icon: "fa-solid fa-puzzle-piece" },
   ];
 
   const renderSkills = skills.map((skill) => {
-    console.log(skill);
     return (
       <div className="skill">
         <FontAwesomeIcon icon={skill.icon} />
@@ -288,5 +287,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

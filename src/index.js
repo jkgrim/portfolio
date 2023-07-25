@@ -7,6 +7,7 @@ import {
   faCircleChevronRight,
   faFlask,
   faPuzzlePiece,
+  faDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -26,6 +27,7 @@ library.add(
   faCircleChevronRight,
   faFlask,
   faPuzzlePiece,
+  faDatabase,
   faGithub,
   faLinkedin,
   faReact,
