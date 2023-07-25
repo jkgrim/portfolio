@@ -150,7 +150,7 @@ export default function App() {
                   <h1>Touch Typing Trainer</h1>
                   <p>React | HTML | CSS</p>
                   <a
-                    href="https://github.com/jkgrim/typing-trainer"
+                    href="https://typing-trainer-ten.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -169,7 +169,7 @@ export default function App() {
                   <h1>Sudoku Solver</h1>
                   <p>React | HTML | CSS</p>
                   <a
-                    href="https://github.com/jkgrim/Sudoku-Solver"
+                    href="https://sudoku-solver-cyan.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
