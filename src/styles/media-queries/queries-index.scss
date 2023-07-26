@@ -1,4 +1,51 @@
-// 1354,
+@media (min-width: 1700px) {
+  .App {
+    .portfolio-container {
+      .introduction-container {
+        .introduction-wrapper {
+          .intro-header {
+            font-size: 90px;
+          }
+
+          .subtext-wrapper {
+            font-size: 22px;
+          }
+
+          .view-portfolio-wrapper {
+            a {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1550px) {
+  .App {
+    .portfolio-container {
+      .introduction-container {
+        .introduction-wrapper {
+          .intro-header {
+            font-size: 80px;
+          }
+
+          .subtext-wrapper {
+            font-size: 20px;
+          }
+
+          .view-portfolio-wrapper {
+            a {
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1354px) {
   .App {
     .portfolio-container {
