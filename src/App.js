@@ -38,10 +38,15 @@ export default function App() {
     <div className="App">
       <div className="portfolio-container">
         <div className="nav-container">
-          <div className="home-wrapper">
+          <a
+            className="home-wrapper"
+            href="https://github.com/jkgrim?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={companyLogo} alt="Jacob Grimshaw Company Logo" />
             JG
-          </div>
+          </a>
 
           <div className="media-wrapper">
             <a
@@ -103,9 +108,9 @@ export default function App() {
               </div>
             </div>
 
-            <div className="contact-me">
+            {/* <div className="contact-me">
               <a href="mailto:jacobkgrimshaw@gmail.com">CONTACT ME</a>
-            </div>
+            </div> */}
 
             <div className="view-portfolio-wrapper">
               <div className="view-portfolio">
@@ -149,13 +154,24 @@ export default function App() {
                 <div class="flip-card-back">
                   <h1>Touch Typing Trainer</h1>
                   <p>React | HTML | CSS</p>
-                  <a
-                    href="https://typing-trainer-ten.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Learn More
-                  </a>
+
+                  <div className="link-wrapper">
+                    <a
+                      href="https://typing-trainer-ten.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Try it!
+                    </a>
+
+                    <a
+                      href="https://github.com/jkgrim/typing-trainer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -168,13 +184,24 @@ export default function App() {
                 <div class="flip-card-back">
                   <h1>Sudoku Solver</h1>
                   <p>React | HTML | CSS</p>
-                  <a
-                    href="https://sudoku-solver-cyan.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Learn More
-                  </a>
+
+                  <div className="link-wrapper">
+                    <a
+                      href="https://sudoku-solver-cyan.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Try it!
+                    </a>
+
+                    <a
+                      href="https://github.com/jkgrim/Sudoku-Solver"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -185,15 +212,17 @@ export default function App() {
                   <img src={code} alt="random code" />
                 </div>
                 <div class="flip-card-back">
-                  <h1>Coming Soon!</h1>
-                  <p>More projects are on the way!</p>
-                  <a
-                    href="https://github.com/jkgrim?tab=repositories"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    My GitHub
-                  </a>
+                  <h1>More Code</h1>
+                  <p>Check out my other repositories!</p>
+                  <div className="link-wrapper">
+                    <a
+                      href="https://github.com/jkgrim?tab=repositories"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      My GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -202,59 +231,6 @@ export default function App() {
       </div>
 
       <div className="footer-container">
-        <div className="footer-wrapper">
-          <div className="left-footer-wrapper">
-            <div className="feedback">I'd love to hear from you!</div>
-            <div className="contact-info-wrapper">
-              <div className="name">Jacob Grimshaw</div>
-              <div className="city">Springville, Utah</div>
-              <a href="mailto:jacobkgrimshaw@gmail.com">
-                jacobkgrimshaw@gmail.com
-              </a>
-            </div>
-          </div>
-
-          <div className="right-footer-wrapper">
-            <form onSubmit={""} method="POST">
-              <div className="name-wrapper">
-                <input
-                  type="text"
-                  placeholder="Name"
-                  name="name"
-                  className="name-input"
-                  required
-                />
-              </div>
-
-              <div className="email-wrapper">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  name="email"
-                  className="email-input"
-                  required
-                />
-              </div>
-
-              <div className="message-wrapper">
-                <input
-                  placeholder="Message"
-                  name="message"
-                  className="message-input"
-                  required
-                />
-              </div>
-
-              <div className="send-wrapper">
-                <button className="send-btn" type="submit">
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <hr />
-
         <div className="copyright-media-wrapper">
           <div className="copyright">
             <em>© 2023 </em> Jacob Grimshaw.
