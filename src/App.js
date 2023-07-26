@@ -108,10 +108,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* <div className="contact-me">
-              <a href="mailto:jacobkgrimshaw@gmail.com">CONTACT ME</a>
-            </div> */}
-
             <div className="view-portfolio-wrapper">
               <div className="view-portfolio">
                 <a

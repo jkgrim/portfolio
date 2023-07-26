@@ -78,8 +78,9 @@
     .introduction-container {
       width: 100%;
       margin-top: 1%;
+      column-gap: 2em;
 
-      @media (min-width: 700px) {
+      @media (min-width: 769px) {
         display: grid;
         grid-template-columns: 1.35fr 0.65fr;
       }
@@ -110,27 +111,7 @@
         .subtext-wrapper {
           font-size: 18px;
           width: 60%;
-          margin: 5% 0 11.5% 0;
-        }
-
-        .contact-me {
-          margin-bottom: 30px;
-
-          a {
-            transition: 0.2s ease-in-out;
-            font-size: 20px;
-            font-weight: 300;
-            color: #fff;
-            text-decoration: underline;
-            text-decoration-color: $primary-teal;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 5px;
-          }
-
-          a:hover {
-            text-decoration-color: $primary-pink;
-            padding-left: 10px;
-          }
+          margin: 4% 0 7% 0;
         }
 
         .view-portfolio-wrapper {

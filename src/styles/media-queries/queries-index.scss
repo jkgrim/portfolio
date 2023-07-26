@@ -1,1 +1,206 @@
-// 1570
+// 1354,
+@media (max-width: 1354px) {
+  .App {
+    .portfolio-container {
+      .introduction-container {
+        .introduction-wrapper {
+          .intro-header {
+            font-size: 60px;
+          }
+
+          .subtext-wrapper {
+            font-size: 16px;
+          }
+
+          .view-portfolio-wrapper {
+            a {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1108px) {
+  .App {
+    .portfolio-container {
+      .introduction-container {
+        .introduction-wrapper {
+          .intro-header {
+            font-size: 50px;
+          }
+
+          .subtext-wrapper {
+            font-size: 14px;
+          }
+
+          .view-portfolio-wrapper {
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .projects-container {
+        .projects-wrapper {
+          .flip-card {
+            .flip-card-inner {
+              .flip-card-back {
+                .link-wrapper {
+                  a {
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .App {
+    .portfolio-container {
+      .projects-container {
+        .projects-wrapper {
+          .flip-card {
+            .flip-card-inner {
+              .flip-card-back {
+                .link-wrapper {
+                  a {
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .App {
+    .portfolio-container {
+      .projects-container {
+        .projects-wrapper {
+          .flip-card {
+            .flip-card-inner {
+              .flip-card-back {
+                .link-wrapper {
+                  a {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 928px) {
+  .App {
+    .portfolio-container {
+      .introduction-container {
+        .introduction-wrapper {
+          .intro-header {
+            font-size: 40px;
+          }
+
+          .subtext-wrapper {
+            font-size: 12px;
+          }
+
+          .view-portfolio-wrapper {
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .App {
+    .portfolio-container {
+      .swirlies {
+        display: none;
+      }
+
+      .circles {
+        display: none;
+      }
+
+      .lower-swirlies {
+        display: none;
+      }
+
+      .introduction-container {
+        .introduction-wrapper {
+          text-align: center;
+          .intro-header {
+            font-size: 40px;
+          }
+
+          .subtext-wrapper {
+            width: 100%;
+          }
+
+          .view-portfolio-wrapper {
+            .view-portfolio {
+              display: flex;
+              justify-content: center;
+              margin-bottom: 1em;
+            }
+          }
+        }
+      }
+
+      .skills-header {
+        text-align: center;
+      }
+
+      .skills-container {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .projects-container {
+        .projects-header {
+          text-align: center;
+        }
+
+        .projects-wrapper {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    .footer-container {
+      .copyright-media-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .copyright {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
