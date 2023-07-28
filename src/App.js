@@ -8,6 +8,7 @@ import circles from "./images/circles.png";
 import sudokuSolver from "./images/sudoku-solver.png";
 import keyboard from "./images/keyboard2.webp";
 import code from "./images/code.jpeg";
+import resume from "./files/Jacob G Resume.pdf";
 
 export default function App() {
   const skills = [
@@ -103,6 +104,12 @@ export default function App() {
                 I am a professional problem solver. I love to build and create,
                 and am passionate about my work!
               </div>
+            </div>
+
+            <div className="resume-wrapper">
+              <a href={resume} download>
+                Download Resume
+              </a>
             </div>
 
             <div className="view-portfolio-wrapper">

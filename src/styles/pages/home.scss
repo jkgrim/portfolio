@@ -114,6 +114,22 @@
           margin: 4% 0 7% 0;
         }
 
+        .resume-wrapper {
+          margin-bottom: 20px;
+
+          a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #fff;
+            border-bottom: 2px solid $primary-teal;
+            transition: 0.2s ease-in-out;
+          }
+
+          a:hover {
+            margin-left: 15px;
+          }
+        }
+
         .view-portfolio-wrapper {
           a {
             transition: 0.2s ease-in-out;
