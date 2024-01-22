@@ -8,7 +8,7 @@ import circles from "./images/circles.png";
 import sudokuSolver from "./images/sudoku-solver.png";
 import keyboard from "./images/keyboard2.webp";
 import code from "./images/code.jpeg";
-import resume from "./files/Jacob G Resume.pdf";
+import resume from "./files/Jacob Grimshaw Resume.pdf";
 
 export default function App() {
   const skills = [
