@@ -8,6 +8,9 @@ import circles from "./images/circles.png";
 import sudokuSolver from "./images/sudoku-solver.png";
 import keyboard from "./images/keyboard2.webp";
 import code from "./images/code.jpeg";
+import motiquote from "./images/motiquote.png"
+import snake from "./images/snake.png"
+import tetris from "./images/tetris.png"
 import resume from "./files/Jacob Grimshaw Resume.pdf";
 
 export default function App() {
@@ -101,6 +104,12 @@ export default function App() {
               </div>
 
               <div className="subtext bottom">
+                In addition to programming, I am making waves into
+                cybersecurity and IT, as well as game development. I am obsessed
+                with learning and keeping up with new technology advances.
+              </div>
+
+              <div className="subtext bottom">
                 I am a professional problem solver. I love to build and create,
                 and am passionate about my work!
               </div>
@@ -149,6 +158,38 @@ export default function App() {
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
+                  <img src={motiquote} alt="motiquote ui" />
+                </div>
+                <div class="flip-card-back">
+                  <h1>MotiQuote</h1>
+                  <p>React | HTML | CSS</p>
+
+                  <div className="link-wrapper">
+                    <a
+                      href="https://moti-quote.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Try it!
+                    </a>
+
+                    <a
+                      href="https://github.com/jkgrim/MotiQuote"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
                   <img src={keyboard} alt="mechanical keyboard" />
                 </div>
                 <div class="flip-card-back">
@@ -166,6 +207,50 @@ export default function App() {
 
                     <a
                       href="https://github.com/jkgrim/typing-trainer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src={snake} alt="snake game" />
+                </div>
+                <div class="flip-card-back">
+                  <h1>Snake</h1>
+                  <p>Python | Pygame</p>
+
+                  <div className="link-wrapper">
+                    <a
+                      href="https://github.com/jkgrim/snake"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src={tetris} alt="tetris" />
+                </div>
+                <div class="flip-card-back">
+                  <h1>Tetron</h1>
+                  <p>Python | Pygame</p>
+
+                  <div className="link-wrapper">
+                    <a
+                      href="https://github.com/jkgrim/Tetron"
                       target="_blank"
                       rel="noreferrer"
                     >
