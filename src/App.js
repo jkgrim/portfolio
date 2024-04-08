@@ -318,7 +318,7 @@ export default function App() {
       <div className="footer-container">
         <div className="copyright-media-wrapper">
           <div className="copyright">
-            <em>© 2023 </em> Jacob Grimshaw.
+            <em>© 2024 </em> Jacob Grimshaw.
           </div>
 
           <div className="media-wrapper">
